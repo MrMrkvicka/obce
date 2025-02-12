@@ -3,9 +3,10 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use CodeIgniter\HTTP\ResponseInterface;
-use App\Models\Obec;
+
 use App\Models\Okres;
+
+use App\Models\Obec;
 use App\Models\Kraj;
 
 
@@ -24,19 +25,30 @@ class Home extends BaseController
         
     }
 
+
+    
     public function index(): string
     {
         return view('welcome_message');
     }
 
 
-    public function index1(): void
+    public function index1()
     {
-        $tabulka = $this->obec->findAll();
+        $tabulka = $this->okres->where("kraj",141)->findAll();
+      //  $tabulka = $this->okres->where("kod",$kodOkresu)->findAll();
         $data["okres"] = $tabulka;
+
         echo view("index1", $data);
+
+        
     }
+
+
+
 
   
 
+
+ 
 }

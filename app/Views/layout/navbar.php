@@ -1,6 +1,15 @@
-<div class="bg-dark pt-2 pb-2">
-<!-- <h1 class="text-center text-white">Počasí</h1> -->
-<a href="<?= base_url("/"); ?>" class="text-center text-white nav-link ">Na Hlavní Stránku</a>
 
-</div>
-
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav me-auto">
+    <?php
+        foreach($okres as $row) {
+            echo "<li class='nav-item'>";
+            echo "<a class='nav-link' href='".base_url("okres/".$row->kod)."'>".$row->nazev."</a>";
+            echo "</li>";
+                       
+        }?>
+    </ul>
+  </div>
+</nav>
