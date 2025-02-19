@@ -39,6 +39,7 @@ class Home extends BaseController
       //  $tabulka = $this->okres->where("kod",$kodOkresu)->findAll();
         $data["okres"] = $tabulka;
 
+
         echo view("index1", $data);
 
         
