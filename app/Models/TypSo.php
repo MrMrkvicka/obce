@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Okres extends Model
+class TypSo extends Model
 {
-    protected $table            = 'okres';
+    protected $table            = 'typso';
     protected $primaryKey       = 'kod';
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';

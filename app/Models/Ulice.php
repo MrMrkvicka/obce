@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Okres extends Model
+class Ulice extends Model
 {
-    protected $table            = 'okres';
+    protected $table            = 'ulice';
     protected $primaryKey       = 'kod';
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';

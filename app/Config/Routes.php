@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get("index1", "Home::index1");
-$routes->get("okres/(:num)", "Home::index1/$1");
+$routes->get("okres/(:num)", "Home::okres/$1");

@@ -46,6 +46,27 @@ class Home extends BaseController
     }
 
 
+    public function okres($kod, $perPage)
+    {
+
+        $data["obec"] = $this->obec->select(select:"obec.nazev, count(*) as pocet ")-> 
+        join("cast_obce", "obec-kod = cast_obce.obec","inner")->
+        join("ulice", "ulice cast_obce = cast_obce.kod","inner")->join
+        ("adresni_misto", "adresni_misto.ulice = ulice.kod", "inner")->join
+        ("okres", "okres.kod = obec.okres")->
+        where("okres.kod", $kod)->
+        groupBy("obec.kod")->
+        orderBy("pocet", "desc")->
+        paginate($perPage);
+        $data["perPage"] = $perPage;
+        $data["kod"] = $kod;
+        $pager = $this->obec->pager;
+        $data["pager"] = $pager;
+        echo view ("okres", $data);
+
+        
+    }
+
 
 
   
