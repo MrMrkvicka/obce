@@ -1,0 +1,672 @@
+CRITICAL - 2025-02-12 12:30:38 --> ErrorException: Undefined property: stdClass::$kraj
+[Method: GET, Route: index1]
+in APPPATH\Views\index1.php on line 23.
+ 1 APPPATH\Views\index1.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kraj', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 12:41:03 --> ErrorException: Undefined property: stdClass::$kraj
+[Method: GET, Route: index1]
+in APPPATH\Views\index1.php on line 23.
+ 1 APPPATH\Views\index1.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kraj', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 12:44:11 --> ErrorException: Undefined variable $okresy
+[Method: GET, Route: index1]
+in APPPATH\Views\layout\navbar.php on line 7.
+ 1 APPPATH\Views\layout\navbar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okresy', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(37): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 12:48:26 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 12:54:40 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 35.
+ 1 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\laragon\\www\\smid\\obce\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-12 13:09:30 --> mysqli_sql_exception: Unknown column 'kraj' in 'where clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->index1('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-02-12 13:09:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kraj' in 'where clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = :kraj:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:09:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kraj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = \'3711\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = \'3711\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = :kraj:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:09:30 --> [Caused by] mysqli_sql_exception: Unknown column 'kraj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = \'3711\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = \'3711\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = \'3711\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_kraj`
+WHERE `kraj` = :kraj:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:10:06 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:10:12 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:10:17 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:11:12 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:11:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:11:35 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:12:12 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:12:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:14:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:15:27 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:15:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:16:55 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:17:06 --> ParseError: syntax error, unexpected token "{"
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 34.
+ 1 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\laragon\\www\\smid\\obce\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:17:14 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:17:56 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:19:10 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index1(), 0 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: index1]
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:23:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Index.php"
+[Method: GET, Route: index1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('Index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:23:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Index.php"
+[Method: GET, Route: index1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('Index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:23:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Index.php"
+[Method: GET, Route: index1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('Index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:23:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Index.php"
+[Method: GET, Route: index1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(55): view('Index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:26:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Index.php"
+[Method: GET, Route: index1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index.php', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('Index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:26:13 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: index1]
+in APPPATH\Views\layout\navbar.php on line 7.
+ 1 APPPATH\Views\layout\navbar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Index1.php', [], true)
+10 APPPATH\Controllers\Home.php(63): view('Index1.php', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-12 13:27:42 --> mysqli_sql_exception: Unknown column 'pocet' in 'order clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(20, 0)
+#6 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(20, 0)
+#7 C:\laragon\www\smid\obce\app\Controllers\Home.php(67): CodeIgniter\BaseModel->paginate(20)
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-02-12 13:27:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pocet' in 'order clause'
+[Method: GET, Route: okres/3810]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+ORDER BY `pocet` DESC
+ LIMIT 20', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(20, 0)
+ 4 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\Home.php(67): CodeIgniter\BaseModel->paginate(20)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:27:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pocet' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3810\'
+ORDER BY `pocet` DESC
+ LIMIT 20')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3810\'
+ORDER BY `pocet` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+ORDER BY `pocet` DESC
+ LIMIT 20', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(20, 0)
+ 6 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\Home.php(67): CodeIgniter\BaseModel->paginate(20)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:27:42 --> [Caused by] mysqli_sql_exception: Unknown column 'pocet' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3810\'
+ORDER BY `pocet` DESC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3810\'
+ORDER BY `pocet` DESC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3810\'
+ORDER BY `pocet` DESC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obce_obec`.`kod`=`obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `obce_cast_obce`.`obec`=`obce_ulice`.`cast_obce`
+INNER JOIN `obce_adresni_misto` ON `obce_ulice`.`cast_obce`=`obce_adresni_misto`.`ulice`
+JOIN `obce_okres` ON `obce_okres`.`kod`=`obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+ORDER BY `pocet` DESC
+ LIMIT 20', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(20, 0)
+ 7 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\Home.php(67): CodeIgniter\BaseModel->paginate(20)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:32:26 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3705]
+in APPPATH\Views\layout\navbar.php on line 7.
+ 1 APPPATH\Views\layout\navbar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(46): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3705')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:37:18 --> Error: Class "App\Models\Okres" not found
+[Method: GET, Route: okres/3810]
+in APPPATH\Controllers\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:17 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:31 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:32 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:32 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:32 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:45:33 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:46:13 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 13:46:14 --> ErrorException: Attempt to read property "kod" on null
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 9.
+ 1 APPPATH\Views\layout\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kod" on null', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(31): view('index1', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index1('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

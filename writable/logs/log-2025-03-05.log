@@ -1,0 +1,1569 @@
+CRITICAL - 2025-03-05 12:28:44 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3705]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3705')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:28:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3708]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3708')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:28:51 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3711]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:15 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3711]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:17 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3711]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:31:27 --> mysqli_sql_exception: Unknown column 'obec-kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:31:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec-kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec-kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:27 --> [Caused by] mysqli_sql_exception: Unknown column 'obec-kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec-kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:31:55 --> mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:31:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:55 --> [Caused by] mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:31:56 --> mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:31:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:31:56 --> [Caused by] mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:32:33 --> mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:32:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:32:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:32:33 --> [Caused by] mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:32:46 --> mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:32:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:32:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:32:46 --> [Caused by] mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:34:38 --> mysqli_sql_exception: Column 'kod' in on clause is ambiguous in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:34:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kod' in on clause is ambiguous
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kod' in on clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:38 --> [Caused by] mysqli_sql_exception: Column 'kod' in on clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:34:47 --> mysqli_sql_exception: Unknown column 'ulice_cast_obce' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:34:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulice_cast_obce' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulice_cast_obce' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:47 --> [Caused by] mysqli_sql_exception: Unknown column 'ulice_cast_obce' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `ulice_cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-05 12:34:52 --> mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause' in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_ob...', 0)
+#1 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_ob...')
+#2 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_ob...')
+#3 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_ob...', Array, false)
+#4 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\smid\obce\app\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+#8 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\smid\obce\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-05 12:34:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+[Method: GET, Route: okres/3711]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:34:52 --> [Caused by] mysqli_sql_exception: Unknown column 'obec_kod' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = \'3711\'
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `obce_obec`.`nazev`, count(*) as pocet
+FROM `obce_obec`
+INNER JOIN `obce_cast_obce` ON `obec_kod` = `obce_cast_obce`.`obec`
+INNER JOIN `obce_ulice` ON `cast_obce` = `obce_cast_obce`.`kod`
+INNER JOIN `obce_adresni_misto` ON `obce_adresni_misto`.`ulice` = `obce_ulice`.`kod`
+JOIN `obce_okres` ON `obce_okres`.`kod` = `obce_obec`.`okres`
+WHERE `obce_okres`.`kod` = :okres.kod:
+GROUP BY `obce_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:38:39 --> ErrorException: Undefined variable $obce
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 18.
+ 1 APPPATH\Views\okres.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obce', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:38:52 --> ErrorException: Undefined variable $obce
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 18.
+ 1 APPPATH\Views\okres.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obce', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:40:09 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 18.
+ 1 APPPATH\Views\okres.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:40:10 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 18.
+ 1 APPPATH\Views\okres.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:40:21 --> ErrorException: Undefined variable $obce
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 18.
+ 1 APPPATH\Views\okres.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obce', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:42:13 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 19.
+ 1 APPPATH\Views\okres.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:42:38 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::okres(), 1 passed in C:\laragon\www\smid\obce\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: okres/3711]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:00 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 19.
+ 1 APPPATH\Views\okres.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:08 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:09 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:09 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:23 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:24 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:44:31 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:46:29 --> ErrorException: Undefined variable $obce
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obce', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:46:30 --> ErrorException: Undefined variable $obce
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obce', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:46:34 --> ErrorException: Undefined property: stdClass::$kod
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 8.
+ 1 APPPATH\Views\layout\navbar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kod', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:46:46 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:50:19 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 12:54:34 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:02:50 --> ErrorException: Undefined variable $kodOkresu
+[Method: GET, Route: okres/3711]
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodOkresu', 'C:\\laragon\\www\\smid\\obce\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:03:27 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 20.
+ 1 APPPATH\Views\okres.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:03:34 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 19.
+ 1 APPPATH\Views\okres.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:03:40 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 19.
+ 1 APPPATH\Views\okres.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:05:08 --> ErrorException: Undefined variable $key
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\okres.php on line 19.
+ 1 APPPATH\Views\okres.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\okres.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('okres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:16:19 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3708]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(64): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3708')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:17:33 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3810]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(64): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3810')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:17:35 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3708]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(64): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3708')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:17:54 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3705]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3705')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:17:55 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3711]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(65): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3711')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:17:58 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: /]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(42): view('index1')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:18:26 --> ErrorException: Undefined property: CodeIgniter\View\View::$okres
+[Method: GET, Route: /]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+10 APPPATH\Controllers\Home.php(42): view('index1')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:21:11 --> ErrorException: Undefined variable $okres
+[Method: GET, Route: okres/3705]
+in APPPATH\Views\layout\navbar.php on line 6.
+ 1 APPPATH\Views\layout\navbar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okres', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\template.php(18): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('okres', [], true)
+10 APPPATH\Controllers\Home.php(67): view('okres', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3705')
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:22:13 --> ErrorException: Undefined variable $data
+[Method: GET, Route: okres/3705]
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\smid\\obce\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3705')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:22:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: okres/3705]
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\smid\\obce\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->okres('3705')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
