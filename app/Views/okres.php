@@ -15,7 +15,7 @@ $table = new \CodeIgniter\View\Table();
 $table->setHeading("pořadí obce","název obce","počet adres");
 
 
-foreach($obce as $key=>$row){
+foreach($obec as $key => $row){
     $poradi = ($pager->getCurrentPage()-1)*$perPage+$key+1;
     $table->addRow($poradi, $row->nazev, $row->pocet);
 }
@@ -45,7 +45,7 @@ $template = array(
 
 echo $table->generate();
 
-
+echo $pager->links();
 // var_dump($hraci);
 
 ?>
