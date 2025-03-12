@@ -19,28 +19,28 @@ class Home extends BaseController
     var $data = [];
 
 
-    public function __construct()
+    public function __construct($perPage = 20)
     {
         $this->obec = new Obec();
         $this->okres = new Okres();
         $this->kraj = new Kraj();
         
-
-
-        $this->data["okres"] = $this->okres->where("kraj",141)->findAll();
+        $this->data["okres"] = $this->okres->where("kraj",141)->paginate($perPage);
         //  $tabulka = $this->okres->where("kod",$kodOkresu)->findAll();
+        $this->data["perPage"] = $perPage;
+        $pager = $this->obec->pager;
+        $this->data["pager"] = $pager;
 
-        
-        
-          
-  
     }
 
-
-    
     public function index(): string
     {
 
+        $this->data['page_title'] = "Home";
+        $this->data['obec'] = $this->obec->select("obec.nazev, Count(*) as pocet")->join("cast_obce", "obec.kod = cast_obce.obec", "inner")->join("ulice", "ulice.cast_obce = cast_obce.kod", "inner")->join("adresni_misto", "adresni_misto.ulice = ulice.kod", "inner")->join("okres", "okres.kod = obec.okres")->groupBy("obec.kod")->orderBy("pocet", "desc")->paginate(20);
+        
+        $pager = $this->obec->pager;
+        $this->data['pager'] = $pager;
         return view('index1', $this->data);
     }
 

@@ -1567,3 +1567,428 @@ in APPPATH\Controllers\Home.php on line 67.
  5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:31:47 --> ErrorException: Undefined variable $obec
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 18.
+ 1 APPPATH\Views\index1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obec', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:32:08 --> ErrorException: Undefined variable $obec
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 18.
+ 1 APPPATH\Views\index1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obec', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:32:31 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 APPPATH\Views\index1.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:33:39 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 APPPATH\Views\index1.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:33:40 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 APPPATH\Views\index1.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:34:02 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 APPPATH\Views\index1.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:35:29 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(38): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:35:56 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(38): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:38:27 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:38:28 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:38:42 --> ErrorException: Undefined property: stdClass::$pocet
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 20.
+ 1 APPPATH\Views\index1.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pocet', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:38:59 --> ErrorException: Undefined variable $poradi
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 20.
+ 1 APPPATH\Views\index1.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $poradi', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:39:08 --> ParseError: syntax error, unexpected token ","
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 20.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 3 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:39:13 --> ErrorException: Undefined property: stdClass::$pocet
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 20.
+ 1 APPPATH\Views\index1.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pocet', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:40:32 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(39): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:42:22 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(39): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:42:23 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(39): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:42:23 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(39): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:42:23 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 19.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 4 APPPATH\Controllers\Home.php(39): view('index1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:43:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:43:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:44:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:46:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(46): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:46:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(46): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:47:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:47:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-05 13:48:44 --> ErrorException: Undefined property: stdClass::$pocet
+[Method: GET, Route: /]
+in APPPATH\Views\index1.php on line 20.
+ 1 APPPATH\Views\index1.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pocet', 'C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\smid\\obce\\app\\Views\\index1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index1', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('index1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
